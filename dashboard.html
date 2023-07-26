@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/dashboard.css">
+  
+</head>
+
+<body>
+  
+      
+
+      <div class="sidebar">
+        
+        <div class="sidebar-icon" onclick="toggleSidebar()">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="logo">
+          <img src="./img/logo1.png">
+          <hr class="line">
+          </div>
+        <ul class="sidebar-menu">
+          <li>
+          <img src="./img/menu.svg" alt="">
+          <span style="color: white;">Dashboard</span>
+          </li>
+          <li><img src="./img/chart.svg" alt="">
+            <span class="clr">Trade</span>
+          </li>
+          <li>
+            <img src="./img/wallet.svg" alt="">
+            <span class="clr">Wallet</span>
+          </li>
+
+          <li>
+            <img src="./img/chatting.svg" alt="">
+            <span class="clr">Message</span>
+          </li>
+          <li>
+            <img src="./img/gear.svg" alt="">
+            <span class="clr">Settings</span>
+          </li>
+          <div class="sprt">
+            <hr>
+            <li>
+              <img src="./img/support.svg" alt="">
+              <span>Support</span>
+            </li>
+            <li>
+              <img src="./img/logout.svg" alt="">
+              <span>Logout</span>
+            </li>
+          </div>
+        </ul>
+      </div>
+  
+    
+  
+
+  <div class="content">
+    <!-- <button class="open-btn" onclick="openSidebar()">&#9776; </button> -->
+      <div class="container">
+        
+        <div class="row">
+
+          <div class="col-md-1"></div>
+          <div class="col-5 col-md-7 ">
+            <h1>Dashboard</h1>
+          </div>
+
+          <div class="col-1 col-md-1  text-center drope "><i class="fa-regular  fa-bell position-relative"></i><span
+              class="position-absolute   translate-middle badge rounded-pill bg-success  ">3</span>
+          </div>
+          <div class="col-6 col-md-2 d-flex justify-content-center  img-fluid ellis"><img src="./img/Ellipse.png"
+              alt="">
+            <div class=" drop">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown button
+              </button>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div><br><br><br>
+
+
+        <div class="container-fluid">
+          <div class="row align-items-center justify-content-center  imge ">
+
+            <div class="col-md-4 col-lg-2 text-center mb-3 mb-md-3 dsh"><img src="./img/dsh1.png" class="img-fluid" alt=""></div>
+            <div class="col-md-4 col-lg-2 text-center mb-3 mb-md-3 dsh"><img src="./img/dsh2.png" class="img-fluid" alt=""></div>
+            <div class="col-md-4 col-lg-2 text-center mb-3 mb-md-3 dsh"><img src="./img/dsh3.png" class="img-fluid" alt=""></div>
+            <div class="col-md-4 col-lg-2 text-center mb-3 mb-md-3 dsh"><img src="./img/dsh4.png" class="img-fluid" alt=""></div>
+
+            <div  class="col-md-4 mt-md-0 mt-lg-0 col-lg-2 btn-dv"><a href="" class="dsh-btn">Invest</a><br><br><br><a href=""
+                class="dsh-btn1">Withdraw</a></div>
+          </div><br><br>
+
+          <div class="row justify-content-md-center justify-content-lg-start  center">
+            <div class="col-lg-1"></div>
+            <div class="col-md-10 col-lg-7 p-2 p-md-5 bg rounded-3 centrr">
+              <div class="row chrt-1">
+                <div class="col-3 col-md-5 ">
+                  <h2>Analytics</h2>
+                </div>
+                <div class="col-5 col-md-5 bg-dark rounded-3 ">
+                  <ul class="nav ">
+                    <li >day
+                    </li>
+                    <li >week
+                    </li>
+                    <li style="background-color: #5d5dee; " class="rounded-3">month
+                    </li>
+                    <li >year
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-2 col-md-2">
+                  <div class="dropdown"><button class="btn btn-coin dropdown-toggle" type="button"
+                      id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><a href=""><img
+                          src="./img/curency1.png" class="me-1" alt=""></a>
+                      BTC</button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1 ">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-12 mt-3 ">
+                  <div class="App"><img src="./img/download.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-10 col-lg-3 ms-0 ms-lg-3 mt-5 mt-lg-0 wlt-sec  rounded-3 px-4 py-2 bg1 centrr">
+              <h3>Wallet</h3>
+              <div class="row align-items-center mt-4">
+                <div class="col-7 col-md-7 coin"><a href=""><img src="./img/curency1.png" class="me-3"
+                      alt=""><br><span>Bitcoin</span> BTC</a></div>
+                <div class="col-5 col-md-5 coin-prcnt text-end"><a href=""> 37% <span class="main-color"> <br>+2.5%
+                    </span> </a></div>
+              </div>
+              <div class="row align-items-center mt-5">
+                <div class="col-7 col-md-7 coin"><a href=""><img src="./img/curency2.png" class="me-3"
+                      alt=""><br><span>Tether</span> USDT</a></div>
+                <div class="col-5 col-md-5 coin-prcnt text-end"><a href=""> 23% <span class="main-color"> <br>+3.5%
+                    </span> </a></div>
+              </div>
+              <div class="row align-items-center mt-5">
+                <div class="col-8 col-md-7 coin"><a href=""><img src="./img/curency3.png" class="me-3"
+                      alt=""><br><span>Ethereum</span> ETH</a></div>
+                <div class="col-4 col-md-5 coin-prcnt text-end"><a href=""> 20% <span class="main-color"><br> +1.5%
+                    </span> </a></div>
+              </div>
+              <div class="row align-items-center mt-5">
+                <div class="col-7 col-md-6 coin"><a href=""><img src="./img/curency4.png" class="me-3"
+                      alt=""><br><span>Ripple</span> XLA</a></div>
+                <div class="col-5 col-md-6 coin-prcnt text-end"><a href=""> 17% <span class="main-color"><br> +1.5%
+                    </span> </a></div>
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+
+
+
+
+        <div class="container-fluid">
+          <div class="row pb-5 justify-content-center   table-data">
+            <div class=" tbl  col-md-10   py-3 px-3 rounded-3 ">
+
+              <h3>History</h3>
+              <table class="table table-borderless  ">
+
+
+                <thead>
+                  <tr>
+                    <th scope="col">Coin</th>
+                    <th scope="col">Invested</th>
+                    <th scope="col">Investment Date</th>
+                    <th scope="col">Closing Price</th>
+                    <th scope="col">Closing Date</th>
+                    <th scope="col">Profit</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row">Tether USDT</td>
+                    <td class="bl-text"> $2340</td>
+                    <td>6 november, 2022</td>
+                    <td class="bl-text">$3362</td>
+                    <td class="rd-text">20 november,2022</td>
+                    <td class="main-color">$1022</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Bitcoin BTC</td>
+                    <td class="bl-text"> $100</td>
+                    <td>1 november, 2022</td>
+                    <td class="bl-text">$166</td>
+                    <td class="rd-text">16 november,2022</td>
+                    <td class="main-color">$66</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Ethereum ETH</td>
+                    <td class="bl-text"> $742</td>
+                    <td>20 October, 2022</td>
+                    <td class="bl-text">$1548</td>
+                    <td class="rd-text">3 november,2022</td>
+                    <td class="main-color">$806</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Ripple XLA</td>
+                    <td class="bl-text"> $260</td>
+                    <td>20 October, 2022</td>
+                    <td class="bl-text">$376</td>
+                    <td class="rd-text">29 October,2022</td>
+                    <td class="main-color">$116</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/dashboard.js"></script>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+      </script>
+</body>
+
+</html>

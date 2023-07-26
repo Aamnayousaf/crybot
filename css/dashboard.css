@@ -1,0 +1,327 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+  background-color: rgb(14, 22, 14);
+}
+.sidebar {
+  width: 80px;
+  background-color: black;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding-top: 20px;
+ 
+  
+
+}
+
+
+
+.logo img {
+  width:50px;
+  margin-left: 15px;
+}
+
+.sidebar-icon {
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu li {
+  padding: 10px;
+  display: flex;
+  font-size: 12px;
+  list-style: none;
+}
+
+
+.sidebar-expanded 
+
+.sidebar-menu hr{
+  width: 60%;
+  margin-left: 18px;
+}
+.sidebar-menu li span {
+  display: none;
+}
+
+.sidebar-expanded {
+  width: 22%;
+}
+
+.sidebar-expanded .sidebar-menu li span {
+  display: inline;
+ 
+}
+
+.sidebar-expanded .logo img {
+  width: 150px;
+  margin-left: 50px;
+}
+.sidebar-expanded .line{
+  width:75%;
+  margin-left: 50px;
+}
+.sidebar-expanded .sidebar-menu hr{
+  width: 75%;
+  margin-left: 20%;
+}
+.sidebar-expanded .sidebar-icon i {
+  margin-left:210px ;
+}
+.sidebar-expanded .sidebar-menu  img{
+  margin-left: 50px;
+ 
+}
+.sidebar-expanded .sidebar-menu  span{
+  margin-left: 20px;
+  font-size: 20px;
+ 
+ 
+}
+/* .sidebar-expanded .sprt{
+  margin-top: 300px;
+} */
+
+
+/* .sidebar:hover {
+  width: 22%;
+}
+
+.sidebar:hover .sidebar-menu img {
+  margin-left: 50px;
+}
+.sidebar:hover .sidebar-menu span{
+  display: inline;
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 10px;
+}
+.sidebar:hover .sidebar-menu hr{
+  display: none;
+}
+.sidebar:hover .line{
+  display: none;
+}
+.sidebar:hover .logo img{
+width: 150px;
+margin-left: 60px;
+} */
+
+
+
+/* .sprt {
+  margin-top: 300px;
+}
+.sprt hr{
+  color: white;
+  width: 100%;
+ 
+} */
+.line{
+  color:  white;
+  margin-left: 0px;
+  width: 100%%;
+}
+
+.menu-content li{
+  list-style: none;
+  margin-top: 20px;
+}
+.clr{
+  color:grey;
+}
+.container h1{
+  margin-left: 150px;
+  margin-top: 50px;
+  font-weight: 700;
+  color: white;
+}
+.drop button{
+  color: white;
+  font-weight: 400;
+  margin-top: 50px;
+  border-radius: none;
+ 
+}
+
+
+.btn-dv a{
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 12px;
+ 
+ 
+}
+.dsh-btn{
+  color: white;
+  padding: 15px 90px;
+  background-color: green;
+}
+.dsh-btn1{
+  color: white;
+  padding: 15px 70px;
+  background-color:blue;
+}
+.imge{
+  margin-left: 140px;
+}
+/* .tbl{
+  background-color: black;
+} */
+.tbl h3{
+  color: white;
+}
+.table-data {
+  margin-left: 150px;
+
+}
+
+.table thead tr th{
+  background-color: black;
+  color: white;
+  font-size: 23px;
+
+}
+.table tbody tr td{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+:scope .bl-text {
+  color: blue;
+}
+:scope .rd-text{
+  color: red;
+}
+:scope .main-color{
+  color: green;
+}
+.badge {
+  font-size: 10px;
+  font-weight: 700; 
+  color: #fff;
+  margin-top: 60px;
+}
+.drope i {
+  color: white;
+  margin-top: 60px;
+  font-size:30px;
+} 
+.ellis  img {
+  height: 50px;
+  margin-top: 50px;
+}
+
+
+
+.center{
+  margin-left: 150px;
+  width: 95%;
+}
+.bg{
+  background-color: black;
+}
+
+.bg1{
+  background-color: black;
+}
+.bg1 a{
+  color: white;
+  text-decoration: none;
+}
+.bg1 h3{
+  color: white;
+}
+
+.bg h2 {
+  color: white;
+}
+.bg ul li a{
+  color: white;
+  list-style: none;
+}
+.text-end a{
+  color:white;
+  text-decoration: none;
+}
+.dropdown-menu {
+  background-color: transparent;
+  
+}
+.dropdown button{
+  color: white;
+}
+.dropdown button:hover{
+  color: white;
+}
+.nav li  {
+  color: white;
+  padding: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.btn:hover{
+  color: white;
+}
+@media only screen and (max-width: 759px){
+
+.dsh img{
+  width:100%;
+}
+.centerr{
+  width: 100%;
+  
+  
+}
+.table-data{
+  width: 100%;
+ 
+}
+
+.table thead tr th{
+width: 100%;
+margin-left: 30px;
+
+}
+.table tbody tr td{
+  width: 100%;
+  margin-left: 30px;
+}
+
+.tbl{
+  width: 100%;
+}
+
+
+ .btn-dv{ 
+  margin-top: 20px;
+  padding-top: 10px;
+ margin-left: 60px;
+ font-size: larger;
+ 
+}
+}
+@media only screen and (max-width: 494){
+.App img{
+  width:100%;
+ margin-left: 0;
+}
+
+}
